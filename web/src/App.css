@@ -1,0 +1,132 @@
+/* Página geral */
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background: #0d0d0d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* Card principal */
+.card {
+  width: 100%;
+  max-width: 900px;
+  background: #121212;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Títulos */
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00e500;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  background: #0b0b0b;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline: 2px solid #00e596;
+}
+
+/* Botões */
+.btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: #00e596;
+  color: #022;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.sort {
+  background: #00e596;
+}
+
+.reset {
+  background: #ffb020;
+}
+
+/* Lista */
+.playerItem {
+  background: #171717;
+  padding: 10px;
+  border-left: 4px solid #00e596;
+  border-radius: 8px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnRemove {
+  background: #ff5252;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Avisos */
+.warning {
+  color: #ffbcbc;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Times */
+.teams {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.teamBox {
+  background: #0f1720;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.teamPlayer {
+  background: #0b0b0b;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 6px;
+}

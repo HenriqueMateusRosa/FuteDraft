@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FuteDraft</string>
+    <string name="title_activity_main">FuteDraft</string>
+    <string name="package_name">com.futedraft.app</string>
+    <string name="custom_url_scheme">com.futedraft.app</string>
+</resources>
